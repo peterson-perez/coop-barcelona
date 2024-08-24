@@ -1,9 +1,27 @@
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0 1rem;
-    height: 725px;
+    margin: 0;
+    padding: 0;
+    height: 268px;
+    background-color: #18181C;
+    color: #9E9E9E;
+    padding: 0 160px;
+}
+
+.footer-center-menu-title {
+    color: #ffffff;
+}
+
+.footer-center-menu-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #9E9E9E;
 }
