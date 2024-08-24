@@ -20,6 +20,9 @@ To run the project you can use the following command:
 npm run dev
 ```
 
+## Preview the project
+
+![Project Home page](docs/image.png)
 
 
 
