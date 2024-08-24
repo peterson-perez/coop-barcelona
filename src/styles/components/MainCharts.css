@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     color: #313139;
-    margin-top: 70px;
     font-size: 14px;
 
     p {
@@ -18,31 +17,17 @@
 
 .aside {
     width: 866px;
-    height: 553px;
     border-radius: 23px;
     background-color: #131415;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 28px;
     padding: 43px 53px;
 
 }
 
-.aside-left {
-    width: 246px;
-    border-radius: 20px;
-    background-color: #222228;
-    padding: 25px;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
-    span {
-        text-align: center;
-    }
-}
 
 .customer-details {
     display: flex;
@@ -60,7 +45,7 @@
 }
 
 .user-details {
-    margin-top: 25px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,6 +99,19 @@
     color: #9E9E9E;
 }
 
+.aside-left {
+    width: 246px;
+    border-radius: 20px;
+    background-color: #222228;
+    padding: 25px;
+    justify-content: center;
+
+    span {
+        text-align: center;
+    }
+}
+
+.aside-left,
 .aside-center,
 .aside-right {
     display: flex;

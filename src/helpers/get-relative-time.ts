@@ -2,15 +2,14 @@ export const getRelativeTime = (date: Date, today = new Date()) => {
 
     let diff = Math.abs(date.getTime() - today.getTime());
 
-    // always get days minutes and seconds
     let finalFormattedValue = ''
-    const msInDay = 86400000;
-    const msInHour = 3600000;
-    const msInMinutes = 60000;
     const msInSeconds = 1000;
+    const msInMinutes = 60 * msInSeconds;
+    const msInHour = 60 * msInMinutes;
+    const msInDay = 24 * msInHour;
 
     const days = Math.floor(diff / msInDay);
-    finalFormattedValue += `${days.toString()}d:`
+    finalFormattedValue += `${days.toString().padStart(2, '0')}d:`
     diff = Math.max(0, diff - days * msInDay);
 
     const hours = Math.floor(diff / msInHour);
@@ -21,10 +20,8 @@ export const getRelativeTime = (date: Date, today = new Date()) => {
     finalFormattedValue += `${minutes.toString().padStart(2, '0')}m:`
     diff = Math.max(0, diff - minutes * msInMinutes)
 
-    console.log({ diff });
     const seconds = Math.floor(diff / msInSeconds);
     finalFormattedValue += `${seconds.toString().padStart(2, '0')}s`
-
 
     return finalFormattedValue
 }

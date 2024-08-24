@@ -10,7 +10,7 @@ import { StarIcon } from "../icons/star-icon"
 
 export const MainCharts = () => {
     return (
-        <main className='main-charts'>
+        <section className='main-charts'>
             <div className='aside'>
                 <div className='aside-left'>
                     <span>
@@ -101,6 +101,6 @@ export const MainCharts = () => {
                     </div>
                 </div>
             </div>
-        </main>
+        </section>
     )
 }
