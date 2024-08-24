@@ -105,3 +105,11 @@
     }
 }
 
+
+@media screen and ( max-width: 450px) {
+    .section-title{
+        font-size: 30px;
+        line-height: 44px;
+    }
+}
+
