@@ -1,9 +1,53 @@
-.contact-form {
+.contact-form-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0 1rem;
+    padding: 95px 0;
+    gap: 63px;
     height: 725px;
+
+
+    .contact-form-title {
+        line-height: 80px;
+        font-size: 48px;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+    .contact-form-section {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .contact-form-description {
+        display: block;
+        line-height: 28px;
+        font-size: 18px;
+        color: #9E9E9E;
+        text-wrap: pretty;
+        max-width: 600px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 18px
+    }
+
+    .contact-form-input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        background-color: #18181C;
+        outline: none;
+        border: none;
+        padding: 12px 28px;
+        font-family: Poppins;
+    }
+    textarea.contact-form-input {
+        max-height: 400px;
+    }
 }

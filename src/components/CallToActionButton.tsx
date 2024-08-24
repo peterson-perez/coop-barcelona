@@ -1,10 +1,11 @@
 import { PropsWithChildren, } from "react"
 
-export const CallToActionButton = ({ children = 'Get Started Now' }: PropsWithChildren) => {
+type CallToActionButtonProps = PropsWithChildren & {
+    type: 'button' | 'submit'
+}
+
+export const CallToActionButton = ({ children = 'Get Started Now', type = 'button' }: CallToActionButtonProps) => {
     return (
-        <>
-            <button type="button" className='offer-button'>{children}</button>
-        
-        </>
+        <button type={type} className='call-to-action-button'>{children}</button>
     )
 }

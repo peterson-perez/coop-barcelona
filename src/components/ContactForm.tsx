@@ -1,24 +1,35 @@
+import { GlobeIcon } from "../icons/globe-icon"
+import { CallToActionButton } from "./CallToActionButton"
+
 export const ContactForm = () => {
     return (
-        <div className='contact-form'>
-            <h2>
-                Contact Us
-            </h2>
-            <form>
-                <div className='form-group'>
-                    <label htmlFor="name">Name</label>
-                    <input type="text" id="name" name="name" />
+        <div className='contact-form-container'>
+            <GlobeIcon />
+
+            <section className="contact-form-section">
+                <div className="group">
+                    <h2 className="contact-form-title">
+                        Get In Touch
+                    </h2>
+                    <span className="contact-form-description">
+                        Ready to boost your brand? Fill out the form below, and our team will reach out to discuss how we can help your business grow.
+                    </span>
+
                 </div>
-                <div className='form-group'>
-                    <label htmlFor="email">Email</label>
-                    <input type="email" id="email" name="email" />
-                </div>
-                <div className='form-group'>
-                    <label htmlFor="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
-                </div>
-                <button type="submit">Send</button>
-            </form>
+                <form className="contact-form" onSubmit={e => e.preventDefault()}>
+                    <div className='form-group'>
+                        <input placeholder="Email" type="email" id="email" name="email" className="contact-form-input" />
+                    </div>
+                    <div className='form-group'>
+                        <input placeholder="Name" type="text" id="name" name="name" className="contact-form-input" />
+                    </div>
+                    <div className='form-group'>
+                        <textarea placeholder="Message" id="message" name="message" className="contact-form-input"></textarea>
+                    </div>
+                    <CallToActionButton type="submit">Get In Touch</CallToActionButton>
+                </form>
+
+            </section>
         </div>
     )
 }
