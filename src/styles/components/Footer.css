@@ -1,24 +1,42 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
-    height: 268px;
     background-color: #18181C;
     color: #9E9E9E;
-    padding: 0 160px;
+    padding: 50px 160px;
+
+    .footer-right,
+    .footer-left {
+        flex: 1;
+    }   
+
+    
+}
+
+.footer-left-text-title {
+    width: 300px;
 }
 
 .footer-center-menu-title {
     color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-wrapper {
+    display: flex;
+    gap: 105px;
 }
 
 .footer-center-menu-items {
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-direction: column;
+    align-items: start;
 }
 
 a {

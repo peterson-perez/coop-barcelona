@@ -7,20 +7,30 @@ export const Footer = () => {
                 <div className='footer-left-logo'>
                     <BrandIcon />
                 </div>
-                <div className='footer-left-text'>
-                    <p className='footer-left-text-title'>Lorem ipsum dolor sit amet</p>
-                    <p className='footer-left-text-subtitle'>Lorem ipsum dolor sit amet</p>
-                </div>
+                <p className='footer-left-text-title'>
+                    Empowering Businesses <br /> to Thrive Through Innovative <br /> Marketing Solutions
+                </p>
             </div>
-            <div className='footer-center'>
+            <div className='footer-right'>
                 <div className='footer-center-menu'>
-                    <p className='footer-center-menu-title'>Menu
-                    </p>
-                    <ul className='footer-center-menu-items'>
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>About</a></li>
-                        <li><a href='#'>Contact</a></li>
-                    </ul>
+                    <h3 className='footer-center-menu-title'>Sections </h3>
+                    <div className="menu-wrapper">
+                        <ul className='menu-items footer-center-menu-items'>
+                            <li><a className='menu-item' href='#home'>Home</a></li>
+                            <li><a className='menu-item' href='#companies'>Testimonials</a></li>
+                            <li><a className='menu-item' href='#contact'>Contact</a></li>
+                        </ul>
+                        <ul className='menu-items footer-center-menu-items'>
+                            <li><a className='menu-item' href='#home'>Home</a></li>
+                            <li><a className='menu-item' href='#companies'>Testimonials</a></li>
+                            <li><a className='menu-item' href='#contact'>Contact</a></li>
+                        </ul>
+                        <ul className='menu-items footer-center-menu-items'>
+                            <li><a className='menu-item' href='#home'>Home</a></li>
+                            <li><a className='menu-item' href='#companies'>Testimonials</a></li>
+                            <li><a className='menu-item' href='#contact'>Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>

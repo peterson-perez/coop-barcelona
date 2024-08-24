@@ -11,9 +11,9 @@ export const Header = () => {
         <div className='menu-container'>
             <nav className='menu'>
                 <ul className='menu-items'>
-                    <li><a className='menu-item' href='#'>Home</a></li>
-                    <li><a className='menu-item' href='#'>About</a></li>
-                    <li><a className='menu-item' href='#'>Contact</a></li>
+                    <li><a className='menu-item' href='#home'>Home</a></li>
+                    <li><a className='menu-item' href='#companies'>Testimonials</a></li>
+                    <li><a className='menu-item' href='#contact'>Contact</a></li>
                     <li><CallToActionButton /></li>
                 </ul>
             </nav>

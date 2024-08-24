@@ -1,7 +1,7 @@
 import { PropsWithChildren, } from "react"
 
 type CallToActionButtonProps = PropsWithChildren & {
-    type: 'button' | 'submit'
+    type?: 'button' | 'submit'
 }
 
 export const CallToActionButton = ({ children = 'Get Started Now', type = 'button' }: CallToActionButtonProps) => {

@@ -13,7 +13,7 @@ function App() {
         <>
             <Header />
             <main className='main-container'>
-                <div className='call-to-action-container'>
+                <div className='call-to-action-container' id='home'>
                     <div className='call-to-action'>
                         <div className='title-container'>
                             <h1 className='title'>

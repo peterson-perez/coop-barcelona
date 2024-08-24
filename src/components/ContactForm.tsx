@@ -3,7 +3,7 @@ import { CallToActionButton } from "./CallToActionButton"
 
 export const ContactForm = () => {
     return (
-        <div className='contact-form-container'>
+        <div className='contact-form-container' id='contact'>
             <GlobeIcon />
 
             <section className="contact-form-section">

@@ -3,7 +3,7 @@ import { CompanyList } from "./CompanyList"
 export const CompaniesWeWorked = () => {
 
     return (
-        <div className="companies-we-worked">
+        <div className="companies-we-worked" id='companies'>
             <h2 className="section-title">
             Companies We Worked <br/> With Since 2015
             </h2>
