@@ -182,6 +182,8 @@ body {
 
 
     .menu-items {
+        padding: 0 5px;
+        background-color: #080809;
         flex-direction: column;
     }
 
@@ -209,14 +211,14 @@ body {
     }
 
     .title {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .title-description{
         width: 80%;
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 15px;
     }
 
     .call-to-action{
