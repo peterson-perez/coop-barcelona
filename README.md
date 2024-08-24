@@ -22,8 +22,8 @@ npm run dev
 
 ## Preview the project
 
-![Project Home page](docs/image.png)
-
+![Project Home page](docs/home.png)
+![Contact Form](docs/contact.png)
 
 
 ## Notes
